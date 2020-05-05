@@ -52,7 +52,7 @@ export class PaletteList extends Component {
 							// <Link to={`/palette/${palette.id}`}>
 							// 	<MiniPalette {...palette} />
 							// </Link>
-							// instead we will use the history object in the handler function.  we'll need to pass routeProps from the parent App component
+							// instead we will use the history object in the handler function to perform a 'redirect'.  file:///C:/Users/cmcon/Desktop/local_web/udemy/udemy%20modern%20react%20bootcamp--colt%20steele/react-bootcamp-materials/22-react-router-patterns/router-patterns-handout/router-patterns-handout/index.html   we'll need to pass routeProps from the parent App component
 							<MiniPalette {...palette} handleClick={() => this.goToPalette(palette.id)} />
 						))}
 					</div>
