@@ -10,13 +10,14 @@
 
 .SingleColorPalette .ColorBox {
 	height: 50%;
-} */
+}
 
-/* .ColorBox.go-back {
+.ColorBox.go-back {
 	background-color: black;
-} */
+	position: relative;
+}
 
-/* .copy-button,
+.copy-button,
 .back-button {
 	width: 100px;
 	height: 30px;
