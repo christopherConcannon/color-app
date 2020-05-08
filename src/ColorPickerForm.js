@@ -11,9 +11,12 @@ const styles = {
 	},
 	addColor       : {
 		width     : '100%',
-		padding   : '1rem',
-		marginTop : '1rem',
-		fontSize  : '2rem'
+		// padding   : '1rem',
+		// marginTop : '1rem',
+		// fontSize  : '2rem'
+		padding   : '0.5rem',
+		marginTop : '0.5rem',
+		fontSize  : '1rem'
 	},
 	colorNameInput : {
 		width  : '100%',
