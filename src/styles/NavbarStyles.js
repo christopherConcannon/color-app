@@ -1,3 +1,5 @@
+import sizes from './sizes'
+
 export default {
 	Navbar          : {
 		display        : 'flex',
@@ -6,17 +8,20 @@ export default {
 		height         : '6vh'
 	},
 	logo            : {
-		marginRight     : '15px',
-		padding         : '0 13px',
-		fontSize        : '22px',
-		backgroundColor : '#eceff1',
-		fontFamily      : 'Roboto',
-		height          : '100%',
-		display         : 'flex',
-		alignItems      : 'center',
-		'& a'           : {
+		marginRight        : '15px',
+		padding            : '0 13px',
+		fontSize           : '22px',
+		backgroundColor    : '#eceff1',
+		fontFamily         : 'Roboto',
+		height             : '100%',
+		display            : 'flex',
+		alignItems         : 'center',
+		'& a'              : {
 			textDecoration : 'none',
 			color          : 'black'
+		},
+		[sizes.down('xs')]: {
+			display : 'none'
 		}
 	},
 	slider          : {
@@ -41,6 +46,9 @@ export default {
 		},
 		'& .rc-slider-track'                                                                               : {
 			backgroundColor : 'transparent'
+		},
+		[sizes.down('md')]: {
+			width : '150px'
 		}
 	},
 	selectContainer : {
