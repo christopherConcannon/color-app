@@ -2,6 +2,16 @@ import sizes from './sizes'
 import bg from './bg.svg'
 
 export default {
+	// JSS offers a syntax to declare global variables which will be escaped from the JSS protocol of adding a prefix.  this way it can work in harmony with React Transition Group. we could declare global variables with normal syntax in App.js (which is not using withStyles) but this allows you to work in the same Styles file
+	'@global' : {
+		'.fade-exit'        : {
+			opacity : 1
+		},
+		'.fade-exit-active' : {
+			opacity    : 0,
+			transition : 'opacity 500ms ease-out'
+		}
+	},
 	root      : {
 		height          : '100vh',
 		display         : 'flex',
