@@ -13,7 +13,7 @@ export default {
 	},
 	colors     : {
 		backgroundColor : '#dae1e4',
-		height          : '100px',
+		height          : '150px',
 		// height: '150px',
 		width           : '100%',
 		borderRadius    : '5px',
@@ -41,7 +41,6 @@ export default {
 		position     : 'relative',
 		marginBottom : '-3.5px'
 	},
-	delete     : {},
 	deleteIcon : {
 		color           : 'white',
 		backgroundColor : '#eb3d30',
