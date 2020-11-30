@@ -7,11 +7,11 @@
 A pedagogical color palette organizer/creator application built with React and Material UI.  Application allows user to copy color codes to the clipboard so that these colors can be easily used in other projects.  Features a variety of customizable options, including custom palette creation.
 
 ##### Homescreen
-![Color Palette Organizer Screenshot](./assets/screenshot.png)
+![Color Palette Organizer Homescreen Screenshot](./assets/screenshot.png)
 Single Palette View
-![Color Palette Organizer Screenshot](./assets/screenshot2.png)
+![Single Palette View Screenshot](./assets/screenshot2.png)
 Custom Palette Creator
-![Color Palette Organizer Screenshot](./assets/screenshot3.png)
+![Custom Palette Creator Screenshot](./assets/screenshot3.png)
 
 Visit site [https://color-palette-customizer.herokuapp.com/](https://color-palette-customizer.herokuapp.com/).
 
