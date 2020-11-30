@@ -8,9 +8,9 @@ A pedagogical color palette organizer/creator application built with React and M
 
 ##### Homescreen
 ![Color Palette Organizer Homescreen Screenshot](./assets/screenshot.png)
-Single Palette View
+##### Single Palette View
 ![Single Palette View Screenshot](./assets/screenshot2.png)
-Custom Palette Creator
+##### Custom Palette Creator
 ![Custom Palette Creator Screenshot](./assets/screenshot3.png)
 
 Visit site [https://color-palette-customizer.herokuapp.com/](https://color-palette-customizer.herokuapp.com/).
