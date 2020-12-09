@@ -3,7 +3,6 @@
 ![MIT license badge](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
-
 A pedagogical color palette organizer/creator application built with React and Material UI.  Application allows user to copy color codes to the clipboard so that these colors can be easily used in other projects.  Features a variety of customizable options, including custom palette creation.
 
 ##### Homescreen
@@ -13,7 +12,7 @@ A pedagogical color palette organizer/creator application built with React and M
 ##### Custom Palette Creator
 ![Custom Palette Creator Screenshot](./assets/screenshot3.png)
 
-Visit site [https://color-palette-customizer.herokuapp.com/](https://color-palette-customizer.herokuapp.com/).
+Visit site [here](https://color-palette-customizer.herokuapp.com/).
 
 ## Table of Contents
   * [Installation](#installation)
